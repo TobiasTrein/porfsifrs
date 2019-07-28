@@ -16,5 +16,12 @@
   "bugs": {
     "url": "https://github.com/TobiasTrein/profsifrs/issues"
   },
-  "homepage": "https://github.com/TobiasTrein/profsifrs#readme"
+  "homepage": "https://github.com/TobiasTrein/profsifrs#readme",
+  "dependencies": {
+    "debug": "^4.1.1",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.1"
+  }
 }
