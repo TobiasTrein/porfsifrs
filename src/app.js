@@ -42,4 +42,8 @@ const Professores = require('./models/prof');
 const indexRoutes = require('./routes/index-routes');
 app.use('/', indexRoutes);
 
+const profsRoutes = require('./routes/profs-routes');
+app.use('/professores', profsRoutes);
+
+
 module.exports = app;
