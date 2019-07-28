@@ -25,7 +25,7 @@ exports.createProfessor = async (req, res) => {
 
     await professor.save();
 
-    res.status(201).send({message: 'Professor cadastrada com sucesso!'});
+    res.status(201).send({message: 'Professor cadastrado com sucesso!'});
   } catch (e) {
     res.status(500).send({message: 'Falha ao cadastrar o professor'});
   }
