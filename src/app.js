@@ -35,7 +35,8 @@ process.on('SIGINT', () => {
     });
 });
 
-
+// Load models
+const Professores = require('./models/prof');
 
 // Load routes
 const indexRoutes = require('./routes/index-routes');
